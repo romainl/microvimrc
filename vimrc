@@ -19,6 +19,6 @@ set ruler
 set wildmenu
 
 " various adjustments of the default colorscheme
-hi Visual       cterm=NONE ctermbg=lightcyan ctermfg=black
-hi ModeMsg      cterm=NONE ctermbg=green     ctermfg=black
-hi StatusLineNC cterm=bold ctermbg=darkgrey
+hi Visual       ctermbg=lightcyan ctermfg=black cterm=bold
+hi ModeMsg      ctermbg=green     ctermfg=black cterm=NONE
+hi StatusLineNC ctermbg=darkgrey                cterm=bold
