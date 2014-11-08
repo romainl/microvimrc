@@ -1,4 +1,4 @@
-" just in case
+" because -u /path/to/minivimrc
 set nocompatible
 
 " filetype detection and syntax highlighting
@@ -8,15 +8,17 @@ syntax on
 " it's there so let's activate it
 runtime macros/matchit.vim
 
-" basic settings
+" various settings
 set autoindent
 set backspace=indent,eol,start
-set foldmethod=indent
 set hidden
 set incsearch
 set path=.,**
 set ruler
 set wildmenu
+set autoindent
+set shiftround
+set smarttab
 
 " various adjustments of the default colorscheme
 hi Visual       ctermbg=lightcyan ctermfg=black cterm=bold
