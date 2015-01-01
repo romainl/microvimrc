@@ -15,12 +15,11 @@ set hidden
 set incsearch
 set path=.,**
 set ruler
-set wildmenu
-set autoindent
 set shiftround
 set smarttab
+set wildmenu
 
 " various adjustments of the default colorscheme
-hi Visual       ctermbg=lightcyan ctermfg=black cterm=bold
 hi ModeMsg      ctermbg=green     ctermfg=black cterm=NONE
 hi StatusLineNC ctermbg=darkgrey                cterm=bold
+hi Visual       ctermbg=lightcyan ctermfg=black cterm=bold
