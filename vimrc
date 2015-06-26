@@ -1,6 +1,3 @@
-" because -u /path/to/minivimrc
-set nocompatible
-
 " filetype detection and syntax highlighting
 filetype plugin indent on
 syntax on
